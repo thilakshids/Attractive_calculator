@@ -35,3 +35,15 @@ body{
     background: center;
     border:  1px solid rgba(0,0,0, .1);
 }
+
+.calculator span:active{
+    background: #74ff3b;
+    color: #111;
+
+}
+
+.calculator span.clear{
+    grid-column: span 2;
+    width: 120px;
+
+}
